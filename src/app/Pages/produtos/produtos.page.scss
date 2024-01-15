@@ -6,17 +6,42 @@ h1{
 }
 .pcort{
     font-size: 22px;
-    color: red;
+    color: #6AA67F;
     text-decoration: line-through;
     margin-right: 20px;
 }
 .desconto{
     font-size: 24px;
-    color: green;
+    color:#f54100;
 }
 ion-card-title{
     display: flex;
     flex-direction: row;
     align-items: center;
     align-content: center;
+    color: #401201;
 }
+
+  h1 {
+    color:#f54100;
+    background-color: #DBF2D8;
+  }
+  
+  ion-card {
+    
+    background-color: #DBF2D8;
+    color: #401201;
+  }
+
+  
+  ion-card-subtitle {
+    color: #401201;
+  }
+  
+  ion-card-content {
+    color: #401201;
+  }
+
+  #fundo{
+    background-color: #6AA67F;
+  }
