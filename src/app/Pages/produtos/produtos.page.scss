@@ -1,47 +1,40 @@
-h1{
+/* Estilos Gerais */
+ion-content {
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
     text-align: center;
-    color: rgb(82, 31, 8);
-    text-shadow: 3px 3px 6px rgb(73, 73, 73);
-    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Estilos do Card de Produto */
+ion-card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .pcort{
     font-size: 22px;
-    color: #6AA67F;
+    color: red;
     text-decoration: line-through;
     margin-right: 20px;
 }
 .desconto{
     font-size: 24px;
-    color:#f54100;
+    color: green;
 }
-ion-card-title{
+
+ion-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
-    color: #401201;
 }
-
-  h1 {
-    color:#f54100;
-    background-color: #DBF2D8;
-  }
-  
-  ion-card {
-    
-    background-color: #DBF2D8;
-    color: #401201;
-  }
-
-  
-  ion-card-subtitle {
-    color: #401201;
-  }
-  
-  ion-card-content {
-    color: #401201;
-  }
-
-  #fundo{
-    background-color: #6AA67F;
-  }
